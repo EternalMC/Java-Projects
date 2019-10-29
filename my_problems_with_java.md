@@ -1,5 +1,5 @@
-#LIST
-(╯°□°）╯︵ ┻━┻
+# LIST
+<p>(╯°□°）╯︵ ┻━┻<p>
 1.int result9 = myString1.length();            // result9 = 5 what!!! 
 
 2.

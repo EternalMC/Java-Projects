@@ -17,3 +17,14 @@ Calendar.getInstance( ));	"1:34:18 PM"
 %	Displays a percent character	String.format( "%%" );	"%"
 n	Adds a newline character to the string	String.format( "hop%nscotch" );	"hop
 scotch"
+
+<p>
+Flag	Description	Example	Results
+'-'	The dash flag will cause the result to be left-justified within the specified width.	String.format("%-10.3f", 12.4567));	"12.457    "
+'+'	The plus flag will cause the numeric result to always include the + or - sign.	String.format("%+10.3f", 12.4567));	"   +12.457"
+'0'	The zero flag will cause the numeric result to be zero-padded to the left.	String.format("%010.3f", 12.4567));	"000012.457"
+','	The comma flag will cause the numeric value to have a thousand's separator.	String.format("%,12d", 12345678);	"  12,345,678"
+'('	The open parenthesis will put negative numbers within in parentheses.	String.format("%(10.3f", 12.4567));
+String.format("%(10.3f", -12.4567));	"    12.457"
+"  (12.457)"
+<p>
